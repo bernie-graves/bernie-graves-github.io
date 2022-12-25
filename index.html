@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Bernie Graves</title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/Bernie-Final-Logo.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -173,10 +173,6 @@
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
           </li>
 
           <li class="navbar-item">
@@ -385,6 +381,9 @@
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
+        <!--
+        - #Education
+      -->
         <section class="timeline">
 
           <div class="title-wrapper">
@@ -399,41 +398,100 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">University of California Santa Barbara</h4>
+              <h4 class="h4 timeline-item-subtitle"> <em>B.S. in Statistics and Data Science</em> </h4>
+              <h4 class="h4 timeline-item-subtitle"> <em>Technology Management Certificate</em> </h4>
 
-              <span>2007 — 2008</span>
+
+              <span>2019 — 2023</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Graduating through the honors program in June 2023. Current GPA; 3.81. <br>
+                Relevant Coursework: Capstone Project in Data Science, Intermediate Python and Data Science,
+                Multivariate Calculus, Regression Analysis, Non-parametric methods, Business Strategy,
+                Financial Mathematics, Statistical Machine Learning.
+
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <!--
+        - #Projects
+      -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Food Fight!</h4>
+
+              <p class="timeline-text">
+                Created a multiplayer 3rd person “thrower” video game where players can start a food fight
+                in a cartoony cafeteria. Utilized Unity, C# and NetCode for GameObjects to handle all
+                aspects of the game ranging from animation to networking. Used Agile development to balance
+                different aspects of the game and to remain on schedule.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
+              <h4 class="h4 timeline-item-title">Twitter NBA Dashboard </h4>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                Created a dashboard using the Python package Dash that allows users to explore the effect
+                Twitter has on select NBA players statistical performance. Collected 71 MB of data from Twitter
+                and NBA.com through various APIs. Leveraged the Amazon Comprehend API to do sentiment analysis on
+                Tweets.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
+              <h4 class="h4 timeline-item-title">Signature Classifier</h4>
 
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                Worked with a team of 6 to create a signature classifying web app to predict if signatures are genuine.
+                Built a frontend to allow users to submit a photo of a signature and return a prediction from a backend
+                Flask API. Automated deployment of the app to Azure Web Services on commits to the repository.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Airline Sentiment Analysis </h4>
+
+              <p class="timeline-text">
+                Built a sentiment analysis model using TensorFlow and trained it using Airline review data. Deployed the
+                model using FastAPI and exposed a public endpoint of the API using and Docker Google Cloud Run.
+                Automated CI/CD to update the deployed container on commits to a GitHub repository.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dashboard with R-Shiny </h4>
+
+              <p class="timeline-text">
+                Built workflows in GitHub Actions to automate CI/CD. Built and tested Docker containers on pull
+                requests. Uploaded container to Docker Hub and deployed to Microsoft Azure Web Services on commits to
+                the repository.
               </p>
 
             </li>
@@ -441,6 +499,10 @@
           </ol>
 
         </section>
+
+        <!--
+        - #Experience
+      -->
 
         <section class="timeline">
 
@@ -456,42 +518,14 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">Venture Sourcing Intern</h4>
 
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
+              <h4 class="h4 timeline-item-subtitle"> <em>Singapore</em> </h4>
+              <span>June 2022 - August 2022</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Worked alongside the venture sourcing team to identify deep tech innovations. Completed market research
+                and competitor analysis on the markets Origgin Ventures was considering.
               </p>
 
             </li>
@@ -509,7 +543,33 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
+                <h5 class="h5">Python - Pandas, Numpy, TensorFlow</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Sevices - AWS, Azure and Firebase</h5>
                 <data value="80">80%</data>
               </div>
 
@@ -522,7 +582,21 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
+                <h5 class="h5">Game Development with Unity and C#</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Version Control - Git, GitHub</h5>
                 <data value="70">70%</data>
               </div>
 
@@ -532,28 +606,16 @@
 
             </li>
 
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
+                <h5 class="h5">CI/CD - Docker, GitHub Actions</h5>
+                <data value="70">70%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 70%;"></div>
               </div>
 
             </li>
@@ -587,15 +649,15 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Data Science</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Video Games</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Miscellaneous</button>
             </li>
 
           </ul>
@@ -619,15 +681,15 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Data Science</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Video Games</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Miscellaneous</button>
               </li>
 
             </ul>
@@ -636,164 +698,134 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/bernie-graves/image-classifier-example" target="_blank"
+                rel="noopener noreferrer">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/Signature-Classifier.png" alt="Signature-Classifier" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Signature Classifier</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Data Science</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="video games">
+              <a href="https://drive.google.com/drive/folders/1kGFDQhwuz76ioUEst8rxzkKsd6RctluD?usp=share_link"
+                target="_blank" rel="noopener noreferrer">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/Food-Fight.png" alt="Food Fight!" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Food Fight!</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Video Game</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/bernie-graves/nba-twitter-dashboard" target="_blank"
+                rel="noopener noreferrer">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/NBA-Twitter-Dashboard.png" alt="NBA-Twitter-Dashboard" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">NBA Twitter Dashboard</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Data Science</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/bernie-graves/sentiment-analysis" target="_blank" rel="noopener noreferrer">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/Airline-Sentiment-Analysis.png" alt="Airline-Sentiment-Analysis"
+                    loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Airline Sentiment Analysis</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Data Science</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="miscellaneous">
+              <a href="https://github.com/bernie-graves/R-Shiny-Dashboard" target="_blank" rel="noopener noreferrer">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/Dashboard-R-Shiny.png" alt="Dashboard-R-Shiny" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">Dashboard With R-Shiny</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Miscellaneous</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/BasketballScorePredictor/BasketballScorePredictor.github.io" target="_blank"
+                rel="noopener noreferrer">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/NBA-Score-Predict.png" alt="Gradio Score Predcitor App" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">Basketball Score Predictor</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Data Science</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="video games">
+              <a href="https://drive.google.com/drive/folders/1fZibq3cA3R5Ew19nEgHTArYuL3-t1u-H?usp=share_link"
+                target="_blank" rel="noopener noreferrer">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/Asteroids.png" alt="Asteroids" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">Asteroids</h3>
 
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
+                <p class="project-category">Video Games</p>
 
               </a>
             </li>
@@ -1007,35 +1039,68 @@
       <article class="contact" data-page="contact">
 
         <header>
-          <h2 class="h2 article-title">Contact</h2>
+          <div class="parent">
+
+            <div class="child inline-block-child">
+              <h2 class="h2 article-title">Contact</h2>
+            </div>
+
+            <div class="child inline-block-child">
+              <ul class="social-list">
+
+
+                <li class="social-item">
+                  <a href="https://twitter.com/graves_bernie" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="social-item">
+                  <a href="https://www.instagram.com/brngrvs/" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="social-item">
+                  <a href="https://www.linkedin.com/in/bernie-graves/" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+
         </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
         <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="mailto:berniejr01@gmail.com?
+                          body= body" class="form" method="get" enctype="multipart/form-data" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+
+
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <div>
+              <input type="text" name="subject" class="form-input" placeholder="Subject">
+              <br>
+            </div>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+
+            <textarea name="body" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" value="Submit" target="_blank" rel="noopener noreferrer" disabled
+              data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
-            </button>
+              </bsutton>
 
           </form>
 
@@ -1046,10 +1111,6 @@
     </div>
 
   </main>
-
-
-
-
 
 
   <!--

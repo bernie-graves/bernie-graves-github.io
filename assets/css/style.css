@@ -619,6 +619,10 @@ main {
   line-height: 1.6;
 }
 
+.colored-svg {
+  filter: invert(20%) sepia(64%) saturate(4070%) hue-rotate(214deg) brightness(99%) contrast(94%);
+}
+
 
 /**
  * #testimonials 
